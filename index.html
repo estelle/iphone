@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <title>iPhone Look and feel</title>
 <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
-<style type="text/css">
+<style>
 body, ul, li {
 	margin:0; 
 	padding:0;
@@ -92,11 +92,32 @@ header {
 .button {
 	color: #FFFFFF;
 	text-decoration: none;
-	background-image: -webkit-gradient(linear, top, bottom, 
-		from(#C5CCD4), 
-		to(#fff));
+	background-image: 
+	   -webkit-gradient(linear, top, bottom, 
+		from(rgba(255,255,255,0.4)), 
+		to(rgba(255,255,255,0.1)));
+	background-image: 
+		-webkit-linear-gradient(top, 
+		rgba(255,255,255,0.4), 
+		rgba(255,255,255,0.1));
 	background-image: 
 		-moz-linear-gradient(top, 
+		rgba(255,255,255,0.4), 
+		rgba(255,255,255,0.1));
+	background-image: 
+		-ms-linear-gradient(top, 
+		rgba(255,255,255,0.4), 
+		rgba(255,255,255,0.1));
+	background-image: 
+		-moz-linear-gradient(top, 
+		rgba(255,255,255,0.4), 
+		rgba(255,255,255,0.1));
+	background-image: 
+		-o-linear-gradient(top, 
+		rgba(255,255,255,0.4), 
+		rgba(255,255,255,0.1));
+	background-image: 
+		linear-gradient(to bottom, 
 		rgba(255,255,255,0.4), 
 		rgba(255,255,255,0.1));
 	text-shadow:  0 -1px 0 rgba(0, 0, 0, 0.6);
@@ -156,13 +177,6 @@ article ul li:last-of-type {
 	border-bottom:none;
 }
 </style>
-<script type="text/javascript">
-			addEventListener("load", function() { 
-				setTimeout(hideURLbar, 0); }, false);
-				function hideURLbar(){
-				window.scrollTo(0,1);
-			}
-		</script>
 </head>
 
 <body>
@@ -182,5 +196,12 @@ article ul li:last-of-type {
 <li lang="es-es">Español</li>
 </ul>
 </article>
+<script>
+			addEventListener("load", function() { 
+				setTimeout(hideURLbar, 0); }, false);
+				function hideURLbar(){
+				window.scrollTo(0,1);
+			}
+</script>
 </body>
 </html>
