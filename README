@@ -1,0 +1,9 @@
+Native look and feel of the iPhone application without the use of images. All CSS, including:
+
+* rounded corners
+* gradients
+* box-shadow
+* text-shadow
+* text-overflow
+* background-size
+
