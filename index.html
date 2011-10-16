@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>iPhone Look and feel</title>
+<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+<style type="text/css">
+body, ul, li {
+	margin:0; 
+	padding:0;
+	font-family: Helvetica;
+}
+body {background-color:#C5CCD4;
+	background-image: -webkit-gradient(linear, 
+		left top, right top,  
+		color-stop(0.7142, #C5CCD4), 
+		color-stop(0.7142, #CBD2D8));
+   	background: -webkit-linear-gradient(0, 
+		#C5CCD4 0%, 
+		#C5CCD4 29%, 
+		#CBD2D8 29%, 
+		#CBD2D8 100%);
+   	background: -moz-linear-gradient(0, 
+		#C5CCD4 0%, 
+		#C5CCD4 29%, 
+		#CBD2D8 29%, 
+		#CBD2D8 100%);
+   	background: -ms-linear-gradient(0, 
+		#C5CCD4 0%, 
+		#C5CCD4 29%, 
+		#CBD2D8 29%, 
+		#CBD2D8 100%);
+   	background: -o-linear-gradient(0, 
+		#C5CCD4 0%, 
+		#C5CCD4 29%, 
+		#CBD2D8 29%, 
+		#CBD2D8 100%);
+   	background: linear-gradient(to left, 
+		#C5CCD4 0%, 
+		#C5CCD4 29%, 
+		#CBD2D8 29%, 
+		#CBD2D8 100%);
+	 -webkit-background-size:7px 1px;
+	 -moz-background-size:7px 7px;
+	 background-size:7px 1px;
+	 background-repeat:repeat;
+}
+h1 {
+	color: white;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	text-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0px;
+	white-space: nowrap;
+	width: 150px;
+}
+header {
+	background-image: -webkit-gradient(linear, 	
+			0% 0%, 0% 50%, 
+			from(rgba(176, 188, 205, 1)), 
+			to(rgba(129, 149, 175, 1)));
+	background-image: -webkit-linear-gradient(top, 
+			rgb(176, 188, 205) 50%, 
+			rgb(129, 149, 175) 100%);
+	background-image: -moz-linear-gradient(top, 
+			rgb(176, 188, 205) 50%, 
+			rgb(129, 149, 175) 100%);
+	background-image: -ms-linear-gradient(top, 
+			rgb(176, 188, 205) 50%, 
+			rgb(129, 149, 175) 100%);
+	background-image: -o-linear-gradient(top, 
+			rgb(176, 188, 205) 50%, 
+			rgb(129, 149, 175) 100%);
+	background-image: linear-gradient(to bottom, 
+			rgb(176, 188, 205) 50%, 
+			rgb(129, 149, 175) 100%);
+ 	padding: 7px 10px;
+	background-color: rgb(109, 132, 162);
+	border-bottom-color:1px solid rgb(45, 54, 66);
+	border-top:1px solid rgb(109, 132, 162);
+	display: block;
+	height: 31px;
+	line-height: 30px;
+	display: block;
+	border-bottom: 1px solid #2C3542;
+	border-top: 1px solid #CDD5DF;
+}
+.button {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-image: -webkit-gradient(linear, top, bottom, 
+		from(#C5CCD4), 
+		to(#fff));
+	background-image: 
+		-moz-linear-gradient(top, 
+		rgba(255,255,255,0.4), 
+		rgba(255,255,255,0.1));
+	text-shadow:  0 -1px 0 rgba(0, 0, 0, 0.6);
+	overflow: hidden;
+	max-width: 80px; 
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family: Helvetica; 
+	font-size: 12px;
+	font-weight:bold;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	height:30px;
+	padding: 0 10px;
+	 -moz-background-size: 100% 50%;
+	 background-size: 100% 50%;
+	 background-repeat:no-repeat;
+	 border: 1px solid #2F353E;
+	 -webkit-box-shadow: 
+	 		0 1px 0 rgba(255,255,255, 0.4), 
+			inset 0 1px 0 rgba(255,255,255,0.4);
+	-moz-box-shadow: 
+	 		0 1px 0 rgba(255,255,255, 0.4), 
+			inset 0 1px 0 rgba(255,255,255,0.4);
+	box-shadow: 
+	 		0 1px 0 rgba(255,255,255, 0.4), 
+			inset 0 1px 0 rgba(255,255,255,0.4);
+	}
+.nav li {padding: 8px;}
+.cancel {
+	float:left;
+	background-color:#4A6C9B;
+	border-color: #2F353E #375073 #375073;
+}
+.done {
+	float: right;
+	background-color: #2463DE;
+	}
+article ul{
+	width: 300px;
+	background-color: #ffffff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #A8ABAE;
+	display: block;
+	margin: 10px auto; 
+}
+article li {
+ list-style-type:none;
+ line-height: 44px;
+ border-bottom:1px solid #A8ABAE;
+ padding: 0 10px;
+
+ }
+article ul li:last-of-type {
+	border-bottom:none;
+}
+</style>
+<script type="text/javascript">
+			addEventListener("load", function() { 
+				setTimeout(hideURLbar, 0); }, false);
+				function hideURLbar(){
+				window.scrollTo(0,1);
+			}
+		</script>
+</head>
+
+<body>
+<header>
+<nav>
+<ul>
+	<li class="button cancel">Cancel</li>
+    <li class="button done">Done...</li>
+</ul>
+<h1>Languages</h1>
+</nav>
+</header>
+<article>
+<ul>
+<li>English</li>
+<li lang="fr-fr">Français</li>
+<li lang="es-es">Español</li>
+</ul>
+</article>
+</body>
+</html>
